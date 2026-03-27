@@ -1,12 +1,22 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InfinitySearch</title>
-  </head>
-  <body class="bg-slate-950">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..a14f695ce7a439011616d4dfbd0daff2f8ce268a
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,12 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>InfinitySearch</title>
++  </head>
++  <body class="bg-slate-950">
++    <div id="root"></div>
++    <script type="module" src="/src/main.jsx"></script>
++  </body>
++</html>
+ 
+EOF
+)
