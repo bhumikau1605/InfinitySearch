@@ -1,0 +1,57 @@
+[
+  {
+    "id": "k1",
+    "question": "What is InfinitySearch?",
+    "answer": "InfinitySearch is an offline-first, decentralized search prototype that combines local data with peer-to-peer querying."
+  },
+  {
+    "id": "k2",
+    "question": "How does decentralized search work?",
+    "answer": "Each device stores knowledge locally and can request missing answers from nearby peers over WebRTC instead of a central server."
+  },
+  {
+    "id": "k3",
+    "question": "What is WebRTC used for?",
+    "answer": "WebRTC creates direct browser-to-browser data channels for real-time peer communication."
+  },
+  {
+    "id": "k4",
+    "question": "What does offline-first mean?",
+    "answer": "Offline-first means the application can still provide core features even when internet access is unavailable."
+  },
+  {
+    "id": "k5",
+    "question": "How are results cached?",
+    "answer": "Responses received from peers are stored in localStorage so future searches can be answered locally."
+  },
+  {
+    "id": "k6",
+    "question": "What is localStorage?",
+    "answer": "localStorage is a browser storage API that persists small key-value data on the user's device."
+  },
+  {
+    "id": "k7",
+    "question": "What does TTL stand for in networking?",
+    "answer": "TTL stands for Time To Live and limits how far a message can propagate through a network."
+  },
+  {
+    "id": "k8",
+    "question": "Why use a JSON knowledge base?",
+    "answer": "A local JSON dataset is simple, portable, and allows search without external APIs."
+  },
+  {
+    "id": "k9",
+    "question": "Can peers relay search queries?",
+    "answer": "Yes, peers can forward unanswered queries to other connected peers, usually with a TTL to avoid loops."
+  },
+  {
+    "id": "k10",
+    "question": "How can devices connect in InfinitySearch?",
+    "answer": "Users share peer IDs and manually connect through a local signaling server to establish WebRTC links."
+  },
+  {
+    "id": "k11",
+    "question": "What happens when no result is found?",
+    "answer": "If local search fails and connected peers have no answer, the app reports that no knowledge was found."
+  }
+]
